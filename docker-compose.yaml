@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+   roy-app-test:
+      image: roy-mobi-app:0.0.1
+      build: .
+      container_name: royc1
+      ports: 
+      - "9734:80"
+      restart: always
